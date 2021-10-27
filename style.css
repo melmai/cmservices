@@ -1,0 +1,77 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+
+/* 
+ * Table of Contents
+ * # Header
+ * - Header Top Bar
+ * # Clients
+ * 
+ * 
+ * 
+ * 
+ * 
+ *  */
+
+/* ========== Header ==========  */
+/* ====== Header Top Bar ======  */
+#menu-top-bar {
+	min-height: 2.5em;
+}
+
+/* ========= Clients ==========  */
+.client_modal .modal-dialog {
+	height: 100%;
+	display: flex; 
+	justify-content: center;
+	align-items: center; 
+}
+
+.client_modal .modal-content {
+	max-width: 700px;
+    padding: 1em;
+}
+
+/* Client Logo */
+.client_logo img {
+	max-height: 100px;
+	width: auto;
+}
+
+/* ========== Blog ==========  */
+
+.page-id-1186 .blog_sidebar img {
+	width: 100%;
+}
+
+.page-id-1186 .blog_postcard_3_col .fusion-image-wrapper {
+	display: flex; 
+}
+
+.page-id-1186 .blog_postcard_3_col .fusion-image-wrapper a {
+	height: 240px;
+	width: 100%;
+	text-align: center; 
+}
+
+.page-id-1186 .blog_postcard_3_col .fusion-image-wrapper .wp-post-image {
+    object-fit: cover;
+    height: 100%;
+}
+
+.fusion-body.single-post .fusion-meta-tb {
+	border: 0;
+}
+
+/* ========== Resources ==========  */
+/* Podcasts */
+.tax_podcast #main {
+	padding-bottom: 0;
+}
