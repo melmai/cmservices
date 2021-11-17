@@ -48,12 +48,19 @@ Text Domain:  Avada
 /* Clients Hover Box */
 .hover-box {
 	position: relative; 
+	border: 1px solid #efefef;
+	overflow: hidden;
+	padding: 0 !important;
 }
 
 .hover-box > .fusion-column-wrapper {
 	display: grid !important;
 	height: 350px;
-	margin-bottom: 20px;
+}
+
+.fusion-grid-3 > .fusion-grid-column.hover-box {
+	width: calc( 90% / 3);
+	margin: 10px !important;
 }
 
 .hover-box_image,
@@ -76,8 +83,12 @@ Text Domain:  Avada
 }
 
 .hover-box_image img {
-	max-height: 100px;
+	max-height: 150px;
 	width: auto;
+}
+
+.hover-box:hover .hover-box_image {
+	filter: grayscale(1);
 }
 
 .hover-box > .fusion-builder-row {
@@ -85,6 +96,7 @@ Text Domain:  Avada
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 .hover-box:hover .fusion-builder-row {
