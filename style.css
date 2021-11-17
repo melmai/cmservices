@@ -11,9 +11,8 @@ Text Domain:  Avada
 /* 
  * Table of Contents
  * # Header
- * - Header Top Bar
+ *   - Header Top Bar
  * # Clients
- * 
  * 
  * 
  * 
@@ -43,6 +42,58 @@ Text Domain:  Avada
 .client_logo img {
 	max-height: 100px;
 	width: auto;
+}
+
+/* Clients Hover Box */
+.hover-box {
+	position: relative; 
+}
+
+.hover-box > .fusion-column-wrapper {
+	display: grid !important;
+	height: 350px;
+	margin-bottom: 20px;
+}
+
+.hover-box_image,
+.hover-box .fusion-builder-row {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	right: 0;
+	height:100%;
+}
+
+.hover-box_image {
+	z-index: 15;
+	background-color:#fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.5em;
+}
+
+.hover-box_image img {
+	max-height: 100px;
+	width: auto;
+}
+
+.hover-box > .fusion-builder-row {
+	transform: translateY(100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hover-box:hover .fusion-builder-row {
+	z-index: 16;
+	transform: translateY(0);
+}
+
+.hover-box_content {
+	height: 100%;
+	justify-content: center;
 }
 
 /* ========== Blog ==========  */
