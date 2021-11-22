@@ -10,6 +10,7 @@ Text Domain:  Avada
 
 /* 
  * Table of Contents
+ * # Layout
  * # Header
  *   - Header Top Bar
  * # Clients
@@ -19,6 +20,11 @@ Text Domain:  Avada
  * 
  * 
  *  */
+
+/* ========== Layout ==========  */
+#main {
+	padding-bottom: 0;
+}
 
 /* ========== Header ==========  */
 /* ====== Header Top Bar ======  */
@@ -48,7 +54,6 @@ Text Domain:  Avada
 /* Clients Hover Box */
 .hover-box {
 	position: relative; 
-	border: 1px solid #efefef;
 	overflow: hidden;
 	padding: 0 !important;
 }
