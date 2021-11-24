@@ -32,6 +32,13 @@ Text Domain:  Avada
 	min-height: 2.5em;
 }
 
+
+/* ========= About ==========  */
+/* Restrict width of logo images */
+.page-id-1042 .logo-row img {
+	max-width: 150px;
+}
+
 /* ========= Clients ==========  */
 .client_modal .modal-dialog {
 	height: 100%;
