@@ -27,6 +27,12 @@ Text Domain:  Avada
 }
 
 /* ========== Header ==========  */
+.fusion-header-wrapper .fusion-menu > .menu-item > a {
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
 /* ====== Header Top Bar ======  */
 #menu-top-bar {
 	min-height: 2.5em;
