@@ -38,6 +38,23 @@ Text Domain:  Avada
 	min-height: 2.5em;
 }
 
+.fusion-secondary-header .fusion-row {
+	display: flex !important;
+}
+
+.fusion-secondary-header .fusion-row .fusion-social-links-header {
+	text-align: left;
+}
+
+.fusion-secondary-header .fusion-row .fusion-secondary-menu li {
+	float: right !important;
+}
+
+@media screen and (max-width: 485px) {
+	.fusion-secondary-header {
+		display: none;
+	}
+}
 
 /* ========= About ==========  */
 /* Restrict width of logo images */
