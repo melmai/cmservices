@@ -62,6 +62,14 @@ Text Domain:  Avada
 	max-width: 150px;
 }
 
+/* ========= Our Team =========  */
+@media screen and (min-width: 800px) {
+	.fusion-content-boxes.values .fusion-column {
+		margin-bottom: 0;
+	}
+}
+
+
 /* ========= Clients ==========  */
 .client_modal .modal-dialog {
 	height: 100%;
@@ -145,6 +153,19 @@ Text Domain:  Avada
 }
 
 /* ========== Blog ==========  */
+
+.blog #main,
+.archive #main {
+	padding-top: 50px; 
+	padding-bottom: 50px;
+}
+
+.blog .sidebar .widget-title,
+.archive .sidebar .widget-title {
+	font-size: 26px; 
+	font-weight: 300;
+	text-transform: uppercase;
+}
 
 .page-id-1186 .blog_sidebar img {
 	width: 100%;
