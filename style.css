@@ -19,6 +19,7 @@ Text Domain:  Avada
  * # Clients
  * # Blog
  * # Resources
+ *   - Resource Cards
  * # Footer
  * 
  * 
@@ -202,6 +203,16 @@ Text Domain:  Avada
 /* Podcasts */
 .tax_podcast #main {
 	padding-bottom: 0;
+}
+
+/* Resource Cards */
+.resource-cards .fusion-image-wrapper { 
+	height: 200px; 
+}
+
+.resource-cards .fusion-image-wrapper img { 
+	object-fit: cover; 
+	min-height: 200px; 
 }
 
 /* ========== Footer ==========  */
