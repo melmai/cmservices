@@ -13,6 +13,9 @@ Text Domain:  Avada
  * # Layout
  * # Header
  *   - Header Top Bar
+ * # About
+ * # Our Team
+ * # Portfolio
  * # Clients
  * # Blog
  * # Resources
@@ -69,6 +72,10 @@ Text Domain:  Avada
 	}
 }
 
+/* ========= Portfolio =========  */
+.fusion-portfolio-post .fusion-post-title a {
+	color: #fff;
+}
 
 /* ========= Clients ==========  */
 .client_modal .modal-dialog {
