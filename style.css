@@ -74,6 +74,12 @@ Text Domain:  Avada
 }
 
 /* ========= Portfolio =========  */
+
+.single-avada_portfolio #main {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
 .fusion-portfolio-post .fusion-post-title a {
 	color: #fff;
 }
