@@ -13,6 +13,7 @@ Text Domain:  Avada
  * # Layout
  * # Header
  *   - Header Top Bar
+ * # Common Elements
  * # About
  * # Our Team
  * # Portfolio
@@ -24,6 +25,18 @@ Text Domain:  Avada
  * 
  * 
  *  */
+
+html {
+	--darkBlue: #2c3e51;
+	--red: #ef484d;
+	--text: #212934; 
+}
+
+a:hover,
+#boxed-wrapper #main .post h2 a:hover,
+.sidebar.fusion-content-widget-area .widget li a:hover {
+	color: var(--darkBlue);
+}
 
 /* ========== Layout ==========  */
 #main {
@@ -58,6 +71,11 @@ Text Domain:  Avada
 	.fusion-secondary-header {
 		display: none;
 	}
+}
+
+/* ========= Common Elements ==========  */
+.no-link.content-boxes .heading .content-box-heading {
+	color: var(--darkBlue) !important;
 }
 
 /* ========= About ==========  */
