@@ -239,6 +239,16 @@ a:hover,
 	min-height: 200px; 
 }
 
+/* ========== Portfolio ==========  */
+.project-details-link a:hover {
+	color: var(--darkBlue);
+}
+
+.ext-link-icon {
+	margin-left: .5em; 
+	font-size: .8em;
+}
+
 /* ========== Footer ==========  */
 .fusion-footer .fusion-text {
 	font-size: .9em;
