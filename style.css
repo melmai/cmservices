@@ -21,6 +21,8 @@ Text Domain:  Avada
  * # Blog
  * # Resources
  *   - Resource Cards
+ * # Portfolio
+ * # Comtact
  * # Footer
  * 
  * 
@@ -278,6 +280,46 @@ a:hover,
 	color: var(--red);
 }
 
+/* ========== Contact ==========  */
+/* @media screen and (max-width: 1300px) {
+	.post-1051 .post-content .fusion-row {
+		flex-direction: column;
+	}
+
+	.post-1051 .post-content .fusion-row .sidebar .fusion-column-wrapper {
+		flex-direction: row !important;
+	}
+} */
+
+/* Responsive map */
+.page-id-1051 .iframe-container iframe {
+	min-height: 350px;
+	width: 100%;
+
+}
+
+/* Contact Sidebar */
+@media screen and (max-width: 1300px) {
+	.post-1051 .post-content .fusion-row .sidebar .fusion-column-wrapper {
+		flex-direction: row !important;
+	}
+
+	.post-1051 .post-content .fusion-row .sidebar .fusion-content-boxes {
+		flex-basis: 33%;
+		flex-grow: 1;
+	}
+
+	.post-1051 .post-content .fusion-row .sidebar .iframe-container {
+		flex-basis: 60%;
+		flex-shrink: 1;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.post-1051 .post-content .fusion-row .sidebar > .fusion-column-wrapper {
+		flex-direction: column !important;
+	}
+}
 /* ========== Footer ==========  */
 .fusion-footer .fusion-text {
 	font-size: .9em;
