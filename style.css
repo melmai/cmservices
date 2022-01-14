@@ -299,11 +299,8 @@ a:hover,
 }
 
 /* Contact Sidebar */
-@media screen and (max-width: 1300px) {
-	.post-1051 .post-content .fusion-row .sidebar .fusion-column-wrapper {
-		flex-direction: row !important;
-	}
 
+@media screen and (max-width: 1300px) {
 	.post-1051 .post-content .fusion-row .sidebar .fusion-content-boxes {
 		flex-basis: 33%;
 		flex-grow: 1;
@@ -312,6 +309,12 @@ a:hover,
 	.post-1051 .post-content .fusion-row .sidebar .iframe-container {
 		flex-basis: 60%;
 		flex-shrink: 1;
+	}
+}
+
+@media screen and (max-width: 1025px) {
+	.post-1051 .post-content .fusion-row .sidebar .fusion-column-wrapper {
+		flex-direction: row !important;
 	}
 }
 
