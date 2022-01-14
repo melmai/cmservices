@@ -250,8 +250,8 @@ a:hover,
 }
 
 .single-avada_portfolio .wp-post-image {
-	width: 100%; 
-	max-width: 700px; 
+	width: auto; 
+	max-width: 850px; 
 	margin-top: 50px; 
 }
 
