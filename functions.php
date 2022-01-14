@@ -80,7 +80,7 @@ function cms_add_fields_to_single_portfolio_post() {
   $association = get_field( 'association' );
 
   if ( $association != '' ) : ?>
-    <?php $association_link = get_field( '$association_link' ); ?>
+    <?php $association_link = get_field( 'association_link' ); ?>
 
     <div class="project-info-box">
 			<h4>Association:</h4>
@@ -101,4 +101,8 @@ function cms_add_content_to_single_portfolio_post() {
 		</div>
 	<?php 
   endif;
+
+  the_post_thumbnail(); 
+
+  
 }
