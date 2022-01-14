@@ -67,6 +67,13 @@ a:hover,
 	float: right !important;
 }
 
+@media screen and (max-width: 1119px) {
+	.fusion-header-wrapper .fusion-mobile-menu-design-flyout .fusion-alignleft,
+	.fusion-header-wrapper .fusion-mobile-menu-design-flyout .fusion-alignright {
+		width: auto;
+	}
+}
+
 @media screen and (max-width: 485px) {
 	.fusion-secondary-header {
 		display: none;
