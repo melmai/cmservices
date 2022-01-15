@@ -13,6 +13,7 @@ Text Domain:  Avada
  * # Layout
  * # Header
  *   - Header Top Bar
+ *   - Mobile Menu
  * # Common Elements
  * # About
  * # Our Team
@@ -85,6 +86,10 @@ a:hover,
 /* ========= Common Elements ==========  */
 .no-link.content-boxes .heading .content-box-heading {
 	color: var(--darkBlue) !important;
+}
+
+.to-top-right #toTop {
+	right: 10px !important;
 }
 
 /* ========= About ==========  */
