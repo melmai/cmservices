@@ -71,8 +71,8 @@ a:hover,
 }
 
 @media screen and (max-width: 1119px) {
-	.fusion-header-wrapper .fusion-mobile-menu-design-flyout .fusion-alignleft,
-	.fusion-header-wrapper .fusion-mobile-menu-design-flyout .fusion-alignright {
+	.fusion-header-wrapper .fusion-mobile-menu-design-modern .fusion-alignleft,
+	.fusion-header-wrapper .fusion-mobile-menu-design-modern .fusion-alignright {
 		width: auto;
 	}
 }
