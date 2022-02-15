@@ -53,6 +53,10 @@ a:hover,
 	letter-spacing: 1px;
 }
 
+.fusion-mobile-logo {
+	max-height: 44px;
+}
+
 /* ====== Header Top Bar ======  */
 #menu-top-bar {
 	min-height: 2.5em;
@@ -75,9 +79,14 @@ a:hover,
 	.fusion-header-wrapper .fusion-mobile-menu-design-modern .fusion-alignright {
 		width: auto;
 	}
+
+	.fusion-header-wrapper .fusion-mobile-menu-design-modern .fusion-alignleft {
+		padding-left: 1em;
+	}
 }
 
 @media screen and (max-width: 485px) {
+
 	.fusion-secondary-header {
 		display: none;
 	}
