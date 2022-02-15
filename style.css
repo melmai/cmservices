@@ -13,6 +13,7 @@ Text Domain:  Avada
  * # Layout
  * # Header
  *   - Header Top Bar
+ *   - Mobile Menu
  * # Common Elements
  * # About
  * # Our Team
@@ -21,6 +22,8 @@ Text Domain:  Avada
  * # Blog
  * # Resources
  *   - Resource Cards
+ * # Portfolio
+ * # Comtact
  * # Footer
  * 
  * 
@@ -50,6 +53,10 @@ a:hover,
 	letter-spacing: 1px;
 }
 
+.fusion-mobile-logo {
+	max-height: 44px;
+}
+
 /* ====== Header Top Bar ======  */
 #menu-top-bar {
 	min-height: 2.5em;
@@ -67,7 +74,19 @@ a:hover,
 	float: right !important;
 }
 
+@media screen and (max-width: 1119px) {
+	.fusion-header-wrapper .fusion-mobile-menu-design-modern .fusion-alignleft,
+	.fusion-header-wrapper .fusion-mobile-menu-design-modern .fusion-alignright {
+		width: auto;
+	}
+
+	.fusion-header-wrapper .fusion-mobile-menu-design-modern .fusion-alignleft {
+		padding-left: 1em;
+	}
+}
+
 @media screen and (max-width: 485px) {
+
 	.fusion-secondary-header {
 		display: none;
 	}
@@ -76,6 +95,10 @@ a:hover,
 /* ========= Common Elements ==========  */
 .no-link.content-boxes .heading .content-box-heading {
 	color: var(--darkBlue) !important;
+}
+
+.to-top-right #toTop {
+	right: 10px !important;
 }
 
 /* ========= About ==========  */
@@ -271,6 +294,49 @@ a:hover,
 	color: var(--red);
 }
 
+/* ========== Contact ==========  */
+/* @media screen and (max-width: 1300px) {
+	.post-1051 .post-content .fusion-row {
+		flex-direction: column;
+	}
+
+	.post-1051 .post-content .fusion-row .sidebar .fusion-column-wrapper {
+		flex-direction: row !important;
+	}
+} */
+
+/* Responsive map */
+.page-id-1051 .iframe-container iframe {
+	min-height: 350px;
+	width: 100%;
+
+}
+
+/* Contact Sidebar */
+
+@media screen and (max-width: 1300px) {
+	.post-1051 .post-content .fusion-row .sidebar .fusion-content-boxes {
+		flex-basis: 33%;
+		flex-grow: 1;
+	}
+
+	.post-1051 .post-content .fusion-row .sidebar .iframe-container {
+		flex-basis: 60%;
+		flex-shrink: 1;
+	}
+}
+
+@media screen and (max-width: 1025px) {
+	.post-1051 .post-content .fusion-row .sidebar .fusion-column-wrapper {
+		flex-direction: row !important;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.post-1051 .post-content .fusion-row .sidebar > .fusion-column-wrapper {
+		flex-direction: column !important;
+	}
+}
 /* ========== Footer ==========  */
 .fusion-footer .fusion-text {
 	font-size: .9em;
