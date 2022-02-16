@@ -149,6 +149,26 @@ a:hover,
 	max-width: 150px;
 }
 
+/* ========= Our Services ==========  */
+.service_container h3 {
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 24px;
+}
+	
+#anchor-links a {
+	color: #fff;
+}
+
+#anchor-links a:hover {
+	color: #ef484d;
+}
+	
+#anchor-links .anchor-link-title {
+	font-weight: 300;
+}
+
 /* ========= Our Team =========  */
 @media screen and (min-width: 800px) {
 	.fusion-content-boxes.values .fusion-column {
