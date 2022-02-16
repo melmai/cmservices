@@ -278,6 +278,18 @@ a:hover,
 	justify-content: center;
 }
 
+@media only screen and (max-width: 1024px) { 
+	.page-id-1044 .fusion-column-wrapper .fusion-post-cards.fusion-post-cards-1 .fusion-grid .fusion-grid-column { 
+		width: 47% !important; 
+	} 
+}
+
+@media only screen and (max-width: 721px) { 
+	.page-id-1044 .fusion-column-wrapper .fusion-post-cards.fusion-post-cards-1 .fusion-grid .fusion-grid-column { 
+		width: 100% !important; 
+	} 
+}
+
 /* ========== Blog ==========  */
 
 .blog #main,
