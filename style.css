@@ -178,6 +178,15 @@ a:hover,
 
 /* ========= Portfolio =========  */
 
+.page-id-1043 .fusion-portfolio-content-wrapper  .fusion-image-wrapper img { 
+	display: block;
+	 margin: auto; 
+}
+
+.page-id-1043 #wrapper #main .fusion-portfolio-content-wrapper .fusion-portfolio-content > h2.fusion-post-title { 
+	font-size: 1.2em; 
+}
+
 .single-avada_portfolio #main {
 	margin-top: 50px;
 	margin-bottom: 50px;
