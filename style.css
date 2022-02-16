@@ -15,6 +15,7 @@ Text Domain:  Avada
  *   - Header Top Bar
  *   - Mobile Menu
  * # Common Elements
+ * # Home 
  * # About
  * # Our Team
  * # Portfolio
@@ -101,6 +102,47 @@ a:hover,
 	right: 10px !important;
 }
 
+/* ========= Home ==========  */
+.hero-highlight-txt { 
+	color: #ff3333; 
+}
+
+.home.hero-subtxt { 
+	text-shadow: 2px 1px 2px rgba(0,0,0,.9); 
+}
+
+.home-services p { 
+	font-size: 16px; 
+}
+
+.home-services .fusion-column .content-box-wrapper { 
+	min-height: 371px; 
+}
+
+.home-client-logos .desktop .fusion-carousel .fusion-carousel-item img {
+	max-height: 100px; max-width: 250px; 
+}
+
+.fusion-portfolio-content-wrapper .fusion-image-wrapper img {
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+#wrapper #main .fusion-portfolio-content-wrapper .fusion-image-wrapper { text-align: center; }
+
+.home #wrapper #main .fusion-portfolio-content-wrapper .fusion-portfolio-content > h2.fusion-post-title { font-size: 1.1em; }
+
+.home .why-cm-text p {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (max-width: 800px) { 
+	.home .why-cm-checklist { 
+		font-size: 18px !important; 
+	}
+}
 /* ========= About ==========  */
 /* Restrict width of logo images */
 .page-id-1042 .logo-row img {
