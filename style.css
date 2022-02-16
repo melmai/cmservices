@@ -345,6 +345,22 @@ a:hover,
 	min-height: 200px; 
 }
 
+.training-grid .fusion-image-wrapper { 
+	height: 200px; 
+}
+
+.training-grid .fusion-image-wrapper img { 
+	object-fit: cover; 
+	min-height: 200px; 
+}
+
+@media screen and (max-width: 768px) {
+	.blog-resources > .fusion-builder-row > .fusion-layout-column > .fusion-column-wrapper {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
 /* ========== Portfolio ==========  */
 .project-details-link a:hover {
 	color: var(--darkBlue);
