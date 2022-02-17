@@ -123,12 +123,13 @@ a:hover,
 	max-height: 100px; max-width: 250px; 
 }
 
-.fusion-portfolio-content-wrapper .fusion-image-wrapper img {
+.home .fusion-portfolio-content-wrapper .fusion-image-wrapper img {
     height: 200px;
     object-fit: cover;
     object-position: top;
 }
-#wrapper #main .fusion-portfolio-content-wrapper .fusion-image-wrapper { text-align: center; }
+
+.home #wrapper #main .fusion-portfolio-content-wrapper .fusion-image-wrapper { text-align: center; }
 
 .home #wrapper #main .fusion-portfolio-content-wrapper .fusion-portfolio-content > h2.fusion-post-title { font-size: 1.1em; }
 
