@@ -55,7 +55,7 @@ a:hover,
 }
 
 .fusion-mobile-logo {
-	max-height: 44px;
+	max-height: 30px;
 }
 
 /* ====== Header Top Bar ======  */
@@ -99,8 +99,21 @@ a:hover,
 }
 
 .to-top-right #toTop {
+	/* fix positioning of move to top button */
 	right: 10px !important;
 }
+
+@media screen and (max-width: 400px) {
+	/* make buttons full width on mobile */
+	.fusion-button {
+		width: 100%;
+	}
+
+	.gform_footer {
+		width: 100%;
+	}
+}
+
 
 /* ========= Home ==========  */
 .hero-highlight-txt { 
@@ -120,7 +133,8 @@ a:hover,
 }
 
 .home-client-logos .desktop .fusion-carousel .fusion-carousel-item img {
-	max-height: 100px; max-width: 250px; 
+	max-height: 100px; 
+	max-width: 250px; 
 }
 
 .home .fusion-portfolio-content-wrapper .fusion-image-wrapper img {
@@ -142,6 +156,11 @@ a:hover,
 @media screen and (max-width: 800px) { 
 	.home .why-cm-checklist { 
 		font-size: 18px !important; 
+	}
+
+	.home-services .fusion-column .content-box-wrapper { 
+		min-height: auto; 
+		padding: 20px;
 	}
 }
 /* ========= About ==========  */
@@ -224,7 +243,7 @@ a:hover,
 }
 
 .hover-box > .fusion-column-wrapper {
-	display: grid !important;
+	/* display: grid !important; */
 	height: 350px;
 }
 
@@ -285,10 +304,20 @@ a:hover,
 	} 
 }
 
-@media only screen and (max-width: 721px) { 
+@media only screen and (max-width: 722px) { 
+
+	.page-id-1044 .hover-box .fusion-column-wrapper {
+		height: auto;
+	}
+
 	.page-id-1044 .fusion-column-wrapper .fusion-post-cards.fusion-post-cards-1 .fusion-grid .fusion-grid-column { 
 		width: 100% !important; 
 	} 
+
+	.page-id-1044 .post-content .fusion-builder-row {
+		max-width: 550px !important; 
+		justify-content: center;
+	}
 }
 
 /* ========== Blog ==========  */
